@@ -1,0 +1,165 @@
+/*
+#e3a765 peach
+#FCCE00 yellow
+#f2efe2 pearl white
+#5d6d7c blue gray
+#000000 black
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  background-color: #eee;
+  height: 80px;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#header-bar {
+  padding-left: 0px;
+  width: 100%;
+  background-color: #777;
+  position: absolute;
+  top: 40px;
+  height: 10px;
+}
+
+#header-container {
+  margin-left: 30px;
+  position: relative;
+  background-color: #FCCE00;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin: 0, auto;
+  width: 140px;
+  border: 2px solid #000;
+  float:left;
+
+  transition: all ease-in-out 250ms;
+}
+
+#header-container:hover {
+  background-color: #888;
+  font-size: 18px;
+  padding: 10px auto;
+  color: #f2efe2;
+}
+
+#logo-bold {
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  transition: all ease-in-out 250ms;
+}
+
+#header-container:hover #logo-bold {
+  font-size: 34px;
+  color: #FCCE00;
+}
+
+#navbar {
+  height: 115px;
+}
+
+nav {
+  float: left;
+  margin-top: 40px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 15px;
+
+  position: relative;
+}
+
+nav a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #333;
+}
+
+nav a:hover {
+  color: #5d6d7c;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #FCCE00;
+
+  position: absolute;
+  top: 3px;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+nav ul li #selected {
+  font-weight: 600;
+}
+
+section {
+
+}
+
+.content {
+  margin: 0 auto 25px auto;
+  padding: 50px;
+  width: 50%;
+}
+
+.content p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+  line-height: 35px;
+}
+
+.content h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  transition: all ease-in-out 250ms;
+}
+
+.content h2:hover {
+  font-size: 34px;
+}
+
+canvas {
+  padding: 0;
+  margin: auto;
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+}

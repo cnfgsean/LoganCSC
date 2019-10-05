@@ -218,3 +218,56 @@ canvas {
   left: 0;
   right: 0;
 }
+
+
+footer {
+  text-align: center;
+}
+
+footer hr{
+  margin: auto;
+  width: 30%;
+}
+
+#footer-content {
+  padding: 10px 200px 50px 200px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin-left: 15px;
+  display: inline-block;
+}
+
+footer ul li::before {
+  content: "> ";
+}
+
+footer a, p {
+  line-height: 40px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer a {
+  color: #5d6d7c;
+}
+
+#footer-logo {
+  font-size: 15px;
+  margin: auto;
+  width: 100px;
+  margin-top: 25px;
+  padding: 10px 10px;
+  border: 1px solid black;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+#footer-logo span {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}

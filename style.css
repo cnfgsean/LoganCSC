@@ -163,7 +163,7 @@ section {
 }
 
 .title-image {
-  background: url("images/vector-background1.jpg") #fff;
+  background: url("images/vector-background2.jpg") #fff;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -172,7 +172,7 @@ section {
 }
 
 .title-section:hover .title-image{
-  transform: scale(1.1) rotate(1deg);
+  transform: scale(1.07) rotate(0.5deg);
 }
 
 .title-section h1 {

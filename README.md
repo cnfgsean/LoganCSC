@@ -7,3 +7,4 @@
 - [ ] Add Favicon
 - [ ] Find a way to load images from source (e.g. Google Drive)
 - [ ] Update (c) 
+- [ ] Replace lipsum text

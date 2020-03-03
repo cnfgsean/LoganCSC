@@ -222,6 +222,7 @@ canvas {
 
 .gallery-collection {
   margin: auto;
+  margin-bottom: 75px;
 }
 
 .gallery-collection h3 {
